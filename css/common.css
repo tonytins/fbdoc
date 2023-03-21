@@ -1,10 +1,24 @@
+/* DOC Style */
 body,
 td,
 th {
   color: #ffffff;
 }
+
+.content {
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  position: relative;
+  min-height: 95vh;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
 body {
-  background-image: url(images/docbg.png);
+  background-image: url(../images/docbg.png);
   background-color: #003366;
 }
 a:link {
@@ -34,4 +48,48 @@ a:active {
 .welcome {
   height: 137;
   padding: 5px;
+}
+
+.logo {
+  margin: 5px;
+}
+
+.featured {
+  padding: 10px;
+  height: 400px;
+}
+
+.featured img {
+  max-height: 99%;
+}
+
+/* Menu Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+  width: 90%;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  /* font-weight: bold; */
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffffff;
+  color: black;
 }
