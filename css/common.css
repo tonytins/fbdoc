@@ -66,12 +66,18 @@ a:active {
 /* Menu Bar */
 /* Add a black background color to the top navigation */
 .topnav {
-  width: 90%;
+  width: 99%;
   background-color: #000000;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
+.topnav span {
+  float: left;
+  text-align: center;
+  padding: 10px 16px;
+}
+
 .topnav a {
   float: left;
   color: #f2f2f2;
