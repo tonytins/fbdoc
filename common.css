@@ -35,3 +35,12 @@ a:active {
   height: 137;
   padding: 5px;
 }
+
+.featured {
+  padding: 10px;
+  height: 400px;
+}
+
+.featured img {
+  max-height: 99%;
+}
