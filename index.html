@@ -67,40 +67,9 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-</head>
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="common.css" type="text/css" media="screen" />
-<title>The Furry Blue D.O.C.</title>
-<style type="text/css">
-<!--
-body,td,th {
-	color: #FFFFFF;
-}
-body {
-	background-image: url(images/docbg.png);
-	background-color: #003366;
-}
-.style2 {font-size: 14px; }
-a:link {
-	color: #00CCFF;
-}
-a:visited {
-	color: #0066FF;
-}
-a:hover {
-	color: #FFFF00;
-}
-a:active {
-	color: #FFFF66;
-}
-.style6 {font-size: 12px}
-.style7 {
-	color: #FFFF00;
-	font-weight: bold;
-}
--->
-</style></head>
+<title>The Furry Blue D.O.C.</title></head>
 
 <body onload="MM_preloadImages('images/home_buttonhl.png','images/gallery_buttonhl.png','images/comics_buttonhl.png','images/animations_buttonhl.png','images/sheets_buttonhl.png','images/links_buttonhl.png')">
 <table width="808" border="0" align="left" valign="top">
@@ -119,7 +88,7 @@ a:active {
                   <a href="error.html"><img src="images/menubar/animations_button.png" border="0" /></a><br />
                   <a href="model_sheets.html"><img src="images/menubar/sheets_button.png" border="0" /></a><br />
                 <a href="links.html"><img src="images/menubar/links_button.png" border="0" /></a></p>
-              <div align="center"><a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=150333&amp;t=221"><img border="0" alt="Foxkeh banners for Firefox 2" title="Foxkeh banners for Firefox 2" src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox2/foxkeh-fx2-125x125.png"/></a></div></td>
+              <div align="center"><a href="https://www.firefox.com/"><img border="0" alt="100% Organic Software" src="images/spreadfirefox/organic/Button_110.gif"/></a></div></td>
         </tr>
       </table>
       <p>&nbsp;</p>
@@ -173,50 +142,5 @@ showImage();
       </div></td>
   </tr>
 </table>
-<script language="JavaScript1.2" type="text/javascript">
-
-/*
-Disable right click script II (on images)- By Dynamicdrive.com
-For full source, Terms of service, and 100s DTHML scripts
-Visit http://www.dynamicdrive.com
-*/
-
-var clickmessage="Right click disabled on images!"
-
-function disableclick(e) {
-if (document.all) {
-if (event.button==2||event.button==3) {
-if (event.srcElement.tagName=="IMG"){
-alert(clickmessage);
-return false;
-}
-}
-}
-else if (document.layers) {
-if (e.which == 3) {
-alert(clickmessage);
-return false;
-}
-}
-else if (document.getElementById){
-if (e.which==3&&e.target.tagName=="IMG"){
-alert(clickmessage)
-return false
-}
-}
-}
-
-function associateimages(){
-for(i=0;i<document.images.length;i++)
-document.images[i].onmousedown=disableclick;
-}
-
-if (document.all)
-document.onmousedown=disableclick
-else if (document.getElementById)
-document.onmouseup=disableclick
-else if (document.layers)
-associateimages()
-</script>
 </body>
 </html>
