@@ -1,60 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<script language="JavaScript" type="text/javascript">
-<!--
-// ==============================================
-// Copyright 2003 by jsCode.com
-// Source: jsCode.com
-// Author: etLux
-// Free for all; but please leave in the header.
-// ==============================================
-
-// Set up the image files to be used.
-var theImages = new Array() // do not change this
-// To add more image files, continue with the
-// pattern below, adding to the array. Rememeber
-// to increment the theImages[x] index!
-
-theImages[0] = 'images/gallery/cat_z.png'
-theImages[1] = 'images/gallery/boxers_of_america.png'
-theImages[2] = 'images/gallery/z_meets_roboz.png'
-theImages[3] = 'images/gallery/my_green_eggs_and_ham.png'
-theImages[4] = 'images/gallery/the_pepsi.png'
-theImages[5] = 'images/gallery/z_goes_camping.png'
-theImages[6] = 'images/gallery/win_xp_insane.png'
-theImages[7] = 'images/gallery/on_the_train.png'
-theImages[8] = 'images/gallery/z_adorable2-5.png'
-theImages[9] = 'images/gallery/rvb_z_welcome.png'
-
-// ======================================
-// do not change anything below this line
-// ======================================
-
-var j = 0
-var p = theImages.length;
-
-var preBuffer = new Array()
-for (i = 0; i < p; i++){
-   preBuffer[i] = new Image()
-   preBuffer[i].src = theImages[i]
-}
-
-var whichImage = Math.round(Math.random()*(p-1));
-function showImage(){
-document.write('<img src="'+theImages[whichImage]+'">');
-}
-
-//-->
-</script>
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" />
-
-<title>The Furry Blue D.O.C.</title></head>
-<div border="0" class="page">
-  <tr>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/common.min.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/fontawesome/all.min.css" type="text/css" media="screen" />
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+  <title>The Furry Blue D.O.C. - Home</title>
+<script language="JavaScript" type="text/javascript">
+  <!--
+  // ==============================================
+  // Copyright 2003 by jsCode.com
+  // Source: jsCode.com
+  // Author: etLux
+  // Free for all; but please leave in the header.
+  // ==============================================
+  
+  // Set up the image files to be used.
+  var theImages = new Array() // do not change this
+  // To add more image files, continue with the
+  // pattern below, adding to the array. Rememeber
+  // to increment the theImages[x] index!
+  
+  theImages[0] = 'images/gallery/cat_z.png'
+  theImages[1] = 'images/gallery/boxers_of_america.png'
+  theImages[2] = 'images/gallery/z_meets_roboz.png'
+  theImages[3] = 'images/gallery/my_green_eggs_and_ham.png'
+  theImages[4] = 'images/gallery/the_pepsi.png'
+  theImages[5] = 'images/gallery/z_goes_camping.png'
+  theImages[6] = 'images/gallery/win_xp_insane.png'
+  theImages[7] = 'images/gallery/on_the_train.png'
+  theImages[8] = 'images/gallery/z_adorable2-5.png'
+  theImages[9] = 'images/gallery/rvb_z_welcome.png'
+  
+  // ======================================
+  // do not change anything below this line
+  // ======================================
+  
+  var j = 0
+  var p = theImages.length;
+  
+  var preBuffer = new Array()
+  for (i = 0; i < p; i++){
+     preBuffer[i] = new Image()
+     preBuffer[i].src = theImages[i]
+  }
+  
+  var whichImage = Math.round(Math.random()*(p-1));
+  function showImage(){
+  document.write('<img src="'+theImages[whichImage]+'">');
+  }
+  
+  //-->
+  </script>
+</head>
+<body>
+  <!-- Begin Page -->
+  <div border="0" class="page">
+    <tr>
+      <!-- Begin Nav Bar -->
     <td width="714" valign="top"><div align="center"><div class="topnav">
       <span><img src="images/doc_logo.png" /></span>
       <a class="active" href="index.html">Home</a>
@@ -67,7 +71,9 @@ document.write('<img src="'+theImages[whichImage]+'">');
     </td>
   </tr>
   <tr>
-    <td valign="top"></td>
+    <!-- End Nav Bar -->
+    <!-- Begin Content -->
+    <div class="content">
     <td valign="top"><div align="center">
       <div class="featured">
         <script language="JavaScript" type="text/javascript">

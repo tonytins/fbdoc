@@ -1,7 +1,15 @@
+/* @font-face {
+  font-family: "Comic Mono";
+  src: local("ComicMono"),
+    url("../fonts/ttf/ComicMono.ttf") format("typeface")
+} */
+
+
 body {
   background-image: url(../images/docbg.png);
   background-color: #003366;
   color: #ffffff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .page {
@@ -12,12 +20,12 @@ body {
 }
 
 .content {
-  min-height: 99vh;
-  margin-top: 1vh;
-  margin-bottom: 5vh;
+  margin-top:1vh;
+  margin-bottom:15vh;
 }
 
 footer {
+  margin-top: 5vh;
   position: absolute;
   bottom: 0;
 }
