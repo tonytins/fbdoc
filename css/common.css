@@ -4,17 +4,26 @@ body {
   color: #ffffff;
 }
 
-.content {
+.page {
   margin: auto;
-  width: 800px;
+  width: 900px;
   padding: 10px;
   position: relative;
-  min-height: 95vh;
+}
+
+.content {
+  min-height: 99vh;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
 }
 
 footer {
   position: absolute;
   bottom: 0;
+}
+
+.welcome {
+  margin-bottom: 5vh;
 }
 
 .row {
